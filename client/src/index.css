@@ -1,0 +1,229 @@
+*{
+  margin:0px ;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Montserrat', sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+p{
+  font-size: 12px;
+  margin-bottom: 0px;
+}
+
+.span{
+  display: flex;
+  /* justify-content: space-evenly; */
+  gap: 32px;
+}
+span{
+  font-size: 15px;
+}
+h2{
+  font-size: 18px;
+}
+.smallimg{
+  height:200px;
+  width:100% !important ;
+  border-radius: 5px !important;
+  /* border: 1px solid rgba(22, 20, 20, 0.868); */
+} 
+
+h1{
+  font-size:20px !important
+}
+
+.row {
+  margin-right: 0px;
+}
+.btn{
+  background-color: #2a8478;
+  color: white;
+  border-color: #2a8478;
+  box-shadow: none;
+  font-size: small;
+  height:  30px;
+  /* margin-left: 10px;
+  margin-right: 5px; */
+}
+
+.btn1{
+  background-color: #2a8478;
+  color: white;
+  border-color: #2a8478;
+  box-shadow: none;
+  height: 15px;
+  padding: -10px 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bs{
+  /* margin: 5px; */
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 10px 10px;
+  border-radius: 5px;
+  background-color: #f1f0f3f4;
+}
+
+.bs1{
+  /* margin: 5px; */
+  padding: 70px 70px;
+  /* padding-top: 70px; */
+  /* box-shadow: rgba(0, 0, 0, 0.24) 0px 10px 10px; */
+  border-radius: 5px;
+  background-color: #32b43f34;
+}
+
+.bs2{
+  /* margin: 5px; */
+  padding: 70px 70px;
+  /* padding-top: 70px; */
+  /* box-shadow: rgba(0, 0, 0, 0.24) 0px 10px 10px; */
+  border-radius: 5px;
+  background-color: #FAF9F6;
+}
+
+.bigimg{
+  height: 250px;
+  /* width: 40%; */
+  border-radius: 50%;
+  /* padding-left: 20px; */
+  box-shadow: 3px 3px 10px grey, -0.5em 0.4em 10px grey;
+ 
+}
+.d-block{
+  height: 150px;
+}
+
+input {
+  box-shadow: none;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 5px;
+  height: 55px;
+  width: 540px;
+  margin: 10px;
+  
+}
+
+.table{
+  background-color : #f2f7f2b8;
+}
+
+.table-bordered {
+  border : 2px solid black;
+}
+
+.table-bordered td , .table-bordered th {
+  border : 1px solid black;
+}
+
+.table thead th{
+  border-bottom : 2px solid black;
+}
+
+.table-light{
+  background-color : #B2BEE5;
+}
+.form-control{
+  height: 31px;
+  margin-top: 10px;
+}
+.cee{
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.med{
+  margin: 10px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar{
+  background-color: #2a8478; ;
+  height: 80px;
+  box-shadow: 3px 3px 10px grey
+  /* padding: 20px; */
+  
+}
+.nav-link:hover{
+  color:#25bfab;
+  font-weight: bolder;
+}
+.navbar-brand:hover{
+  color: #074b42;
+  font-weight: bolder;
+}
+.nav-link{
+  color: rgb(102, 51, 0);
+  /* background-color: blue; */
+}
+.navbar-brand{
+  color:black;
+}
+.navbar-nav{
+  margin-left: auto;
+  padding: 20px;
+}
+.nav-item{
+  padding: 10px;
+}
+
+.landing{
+  background: url('images/hotelogo.png') no-repeat;
+  background-size: 1500px 1000px;
+  overflow: hidden;
+  height: 591px;
+  padding-top: 120px;
+  width: 210.3vh ;
+}
+.landing1{
+
+  background-image: url('https://img.freepik.com/free-vector/soft-green-watercolor-texture-elegant-background_1055-8764.jpg?size=626&ext=jpg&ga=GA1.1.1780900229.1708019137&semt=ais');
+    /* -webkit-backdrop-size:cover; */
+    background-size:cover;
+    background-repeat: no-repeat;
+    /* background-position:center center; */
+    height: 100%;
+  /* background: url('images/design.png') ;
+  background-size: 1500px 100% ; */
+}
+
+.landing2{
+
+  background-image: url('https://img.freepik.com/free-vector/soft-green-watercolor-texture-elegant-background_1055-8764.jpg?size=626&ext=jpg&ga=GA1.1.1780900229.1708019137&semt=ais');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 540px;
+  /* -webkit-backdrop-size:cover;
+  
+  
+  background-position:center center; */
+  /* height: 100%;
+  width: 100%; */
+
+}
+.landingbtn{
+  background-color: black;
+  color: white;
+  margin-top: 20px;
+}
+
+.underbutton{
+  margin: 5px;
+  margin-left: 10px;
+}
