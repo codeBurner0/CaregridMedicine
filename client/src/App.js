@@ -45,7 +45,7 @@ function App() {
       <Routes>
         <Route path="/home" exact element={<HomeScreen />} />
         <Route
-          path="/book/:roomsid/pack"
+          path="/book/:roomsid/:pack"
           element={<BookingScreen />}
         />
 
