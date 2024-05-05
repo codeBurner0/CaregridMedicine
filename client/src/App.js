@@ -15,9 +15,9 @@ import AdminScreen from './screens/AdminScreen';
 
 function App() {
   const navigate=useNavigate()
-  const [data, setData] = useState({
+   const [data, setData] = useState((localStorage.getItem("myData"))?JSON.parse(localStorage.getItem("myData")):{
     _id: "660430fe74d07d6ebaba919f",
-    firstName: "Ankit",
+    firstName: " ",
     lastName: "Anand",
     email: "ankit@gmail.com",
     phone: 7078259655,
